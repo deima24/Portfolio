@@ -1,3 +1,15 @@
 .about-text{
     padding: 0;
 }
+
+.project-box{
+    width: 350px;
+    height: 220px;
+    background-color: aqua;
+    border-radius: 45px;
+    margin-top: 20px;
+}
+
+.link-buttons{
+    margin: 20px;
+}
