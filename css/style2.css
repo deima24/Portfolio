@@ -87,6 +87,10 @@ span {
     display: none;
 }
 
+.my-links {
+    font-size: 2em;
+}
+
 /* home */
 
 section {
