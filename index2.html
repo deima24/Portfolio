@@ -6,6 +6,14 @@
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="css/style2.css">
     <script src="https://kit.fontawesome.com/b21d59335f.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="js/index.js"></script>
+    <script type="text/javascript">
+        (function(){
+        emailjs.init({
+        publicKey: "UDsRxhanj7qPdH5hL",});
+        })();
+    </script>
 </head>
 <body>
     <!-- nav bar -->
@@ -116,21 +124,21 @@
         <form action="#">
 
             <div class="input-box">
-                <span>Name</span>
-                <input type="text" placeholder="Name">
+                <span for="name">Name</span>
+                <input type="text" id="name" placeholder="Enter your name">
             </div>
 
             <div class="input-box">
-                <span>Email</span>
-                <input type="text" placeholder="Email">
+                <span for="email">Email</span>
+                <input type="email" id="email" placeholder="Enter your email">
             </div>
 
             <div class="input-box">
-                <span>Message</span>
-                <input type="text" placeholder="Message">
+                <span for="message">Message</span>
+                <input type="text" id="message" placeholder="Message">
             </div>
 
-            <div class="btn">Submit</div>
+            <div class="btn" onclick="sendMail()">Submit</div>
 
         </form>
     </section>
