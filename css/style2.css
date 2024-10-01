@@ -17,6 +17,8 @@ body {
     background-color: var(--background);
 }
 
+/* nav bar */
+
 nav {
     position: fixed;
     top: 0;
@@ -87,11 +89,13 @@ span {
     display: none;
 }
 
+
+/* home */
+
 .my-links {
     font-size: 2em;
 }
 
-/* home */
 
 section {
     min-height: 100vh;
