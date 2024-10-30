@@ -78,7 +78,7 @@ nav ul a:hover {
 }
 
 span {
-    background: linear-gradient(to right, #6cff52,#3ec5ff);
+    background: linear-gradient(to right, #b24040, #ffba7a);
     background-clip: text;
     color: transparent;
 }
@@ -113,7 +113,7 @@ section {
 
 #home img {
     width: 18vw;
-    border-radius: 50%;
+    border-radius: 30%;
     margin-top: 3em;
 }
 
@@ -158,7 +158,7 @@ section {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom, #6cff52,#3ec5ff);
+    background: linear-gradient(to bottom, #b24040, #ffba7a);
 }
 
 /* About section */
